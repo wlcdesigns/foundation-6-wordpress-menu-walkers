@@ -31,7 +31,7 @@ echo'
 	    	'container' => false,
 	    	'menu' => __( 'Top Bar Menu', 'textdomain' ),
 	    	'menu_class' => 'dropdown menu',
-	    	'theme_location' => 'main-menu',
+	    	'theme_location' => 'topbar-menu',
 	    	'items_wrap'      => '<ul id="%1$s" class="%2$s" data-dropdown-menu>%3$s</ul>',
 	    	//Recommend setting this to false, but if you need a fallback...
 	    	'fallback_cb' => 'f6_topbar_menu_fallback',
