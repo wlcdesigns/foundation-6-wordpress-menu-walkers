@@ -23,7 +23,7 @@ function f6_topbar_menu_fallback($args)
 	$fallback = $walker_page->walk(get_pages(), 0);
 	$fallback = str_replace("<ul class='children'>", '<ul class="children submenu menu vertical" data-submenu>', $fallback);
 	
-	echo '<ul class="dropdown menu" data-dropdown-menu">'.$fallback.'</ul>';
+	echo '<ul class="dropdown menu data-dropdown-menu">'.$fallback.'</ul>';
 }
 
 ?>
